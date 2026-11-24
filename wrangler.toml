@@ -1,0 +1,12 @@
+name = "carbon-detective"
+main = "dist/server/index.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+[build]
+command = "python build.py"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "carbon-detective-participants"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
